@@ -163,6 +163,49 @@ ul.bulleted-list li {
 	display: inline-block;
 	line-height: 20px;
 }
+.welcome-fluid {
+	padding: 60px 0 0 0;
+}
+.form-box {
+	padding: 40px 40px 0 40px;
+	background: #cce2f9;
+	border-radius: 6px;
+	margin-top: 30px;
+}
+.form-box .text-box {
+	font-size: 18px;
+	padding: 0 15px;
+	border-radius: 6px;
+	border: 1px solid #d5d6db;
+	line-height: 60px;
+	min-height:60px;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.form-box .text-area {
+	font-size: 18px;
+	padding: 10px 15px;
+	border-radius: 6px;
+	border: 1px solid #d5d6db;
+	line-height: 24px;
+	resize: none;
+	min-height: 160px;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.form-box .btn {
+	font-size: 18px;
+	padding: 0;
+	border-radius: 6px;
+	border: 0 none;
+	background: #00134d;
+	color: #FFF;
+	text-align: center;
+	font-weight: 600;
+	line-height: 60px;
+	width: 100%;
+	margin-bottom: 40px;
+}
 .our-products {
 	padding: 60px 0;
 }
