@@ -1,33 +1,35 @@
         <section class="why-fluid">
             <div class="container">
+             {% for choose in site.data.choose-section %}
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="text-center">Why Choose Us</h1>
+                        <h1 class="text-center">{{choose.choose-heading}}</h1>
                     </div>
                     <div class="col-md-3">
                         <div class="box">
-                            <div class="icon text-center"><img src="images/01.png" alt=""></div>
-                            <div class="subtitle text-center">Strict Quality Standards</div>
+                            <div class="icon text-center"><img src="images/{{choose.image-one}}" alt=""></div>
+                            <div class="subtitle text-center">{{choose.image-one-subtitle}}</div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="box">
-                            <div class="icon text-center"><img src="images/02.png" alt=""></div>
-                            <div class="subtitle text-center">Best Service</div>
+                            <div class="icon text-center"><img src="images/{{choose.image-two}}" alt=""></div>
+                            <div class="subtitle text-center">{{choose.image-two-subtitle}}</div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="box">
-                            <div class="icon text-center"><img src="images/03.png" alt=""></div>
-                            <div class="subtitle text-center">Reasonable Price</div>
+                            <div class="icon text-center"><img src="images/{{choose.image-three}}" alt=""></div>
+                            <div class="subtitle text-center">{{choose.image-three-subtitle}}</div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="box">
-                            <div class="icon text-center"><img src="images/04.png" alt=""></div>
-                            <div class="subtitle text-center">Quick Support</div>
+                            <div class="icon text-center"><img src="images/{{choose.image-four}}" alt=""></div>
+                            <div class="subtitle text-center">{{choose.image-four-subtitle}}</div>
                         </div>
                     </div>
                 </div>
+                {% endfor %}
             </div>
         </section>
