@@ -2,7 +2,7 @@
 title: eight
 baseurl: /eight
 tagline: Sample Optin Form
-banner-image: home-banner.jpg 
+banner-image: home-banner.jpg
 exclude: ['README.md']
 permalink: pretty #to remove .html
 gems:

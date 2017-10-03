@@ -1,19 +1,21 @@
 <section class="our-products">
             <div class="container">
+             {% for product in site.data.product-section %}
                 <div class="row">
-                    <aside class="col-md-12"><h1 class="text-center">Featured Products</h1></aside>
+                    <aside class="col-md-12"><h1 class="text-center">{{product.product-title}}</h1></aside>
                     <aside class="col-md-3">
-                        <div class="product-item"><img src="images/product-01.jpg" class="img-fluid" alt=""/></div>
+                        <div class="product-item"><img src="{{site.baseurl}}/images/{{product.product-one}}" class="img-fluid" alt=""/></div>
                     </aside>
                     <aside class="col-md-3">
-                        <div class="product-item"><img src="images/product-02.jpg" class="img-fluid" alt=""/></div>
+                        <div class="product-item"><img src="{{site.baseurl}}/images/{{product.product-two}}" class="img-fluid" alt=""/></div>
                     </aside>
                     <aside class="col-md-3">
-                        <div class="product-item"><img src="images/product-03.jpg" class="img-fluid" alt=""/></div>
+                        <div class="product-item"><img src="{{site.baseurl}}/images/{{product.product-three}}" class="img-fluid" alt=""/></div>
                     </aside>
                     <aside class="col-md-3">
-                        <div class="product-item"><img src="images/product-04.jpg" class="img-fluid" alt=""/></div>
+                        <div class="product-item"><img src="{{site.baseurl}}/images/{{product.product-four}}" class="img-fluid" alt=""/></div>
                     </aside>
                 </div>
+                {% endfor %}
             </div>
         </section>
