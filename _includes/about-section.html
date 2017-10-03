@@ -1,20 +1,21 @@
  <section class="work-fluid">
             <div class="container">
+            {% for about in site.data.about-section %}
                 <div class="row">
                     <aside class="col-md-12">
-                        <h1 class="text-center">how we work</h1>
+                        <h1 class="text-center">{{about.about-title}}</h1>
                     </aside>
-                    <aside class="col-md-6"><img src="images/img-01.jpg" class="img-fluid" alt=""/></aside>
+                    <aside class="col-md-6"><img src="{{site.baseurl}}/images/{{about.about-image}}" class="img-fluid" alt=""/></aside>
                     <aside class="col-md-6">
-                        <p>Incorporated since 1998, Circle Power Electrical Engineering Pte Ltd’s core business activities include maintenance and upgrading of electrical works and fixtures for major town councils in Singapore.<br />On a contract basis, we have achieved satisfactory performance and good work performance for more than 10 town councils over the past 2 decades.</p>
+                        <p>{{about.about-content}}</p>
                         <ul class="bulleted-list">
-                            <li>Achieve a safe work environment that promotes a safety-conscious work attitude.</li>
-                            <li>Be swift in compliance to emergency response directives.</li>
-                            <li>Operate equipment efficiently and in a cost efficient manner.</li>
-                            <li>Provide quality service, satisfactory response to complaints, and innovated ideas to improve areas of concern.</li>
-                            <li>To constantly upgrade our certification so as to meet BCA regulatory requirements.</li>
-                        </ul>
+                            <li>{{about.point-one}}</li>
+                            <li>{{about.point-two}}</li>
+                            <li>{{about.point-three}}</li>
+                            <li>{{about.point-four}}</li>
+                         </ul>
                     </aside>
                 </div>
+                {% endfor %}
             </div>
-        </section>
+        </section>s
