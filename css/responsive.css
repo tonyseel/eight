@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width:320px) and (max-width:767px)
+{
+	.responsive-menu i{font-size: 21px!important;
+    background-color: #F71C20;
+    color: #F1DDBC;
+    padding: 11px;}
+	.resmenu ul li a{font-size:18px;color: #F71C20;font-family:'FaunaOne-Regular'}
+	.resmenu ul li a:hover{font-size:18px;color: #fff;font-family:'FaunaOne-Regular'}
+	 .resmenu ul {background: #F1DDBC;display:block}   
+     .resmenu ul li {border-bottom:1px solid #fff;padding:10px;}
+	 .responsive-menu i{color:#fff\9}
+  
+	.logo{text-align:center!important}
+	.head-top .phone {margin-top: 10px}
+	.why-fluid h1{font-size:23px!important}
+	.work-fluid  h1{font-size:23px!important} 
+	.our-products h1{font-size:23px!important}
+	.product-item img{margin-bottom:5px}
+	.facebook-page img{width:100%}
+	.foot-top h4{margin-top:7px}
+	.foot-bottom{font-size:12px}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+	.responsive-menu i{font-size: 21px!important;
+    background-color: #F71C20;
+    color: #F1DDBC;
+    padding: 11px;}
+	.resmenu ul li a{font-size:18px;color: #F71C20;font-family:'FaunaOne-Regular'}
+	.resmenu ul li a:hover{font-size:18px;color: #fff;font-family:'FaunaOne-Regular'}
+	 .resmenu ul {background: #F1DDBC;display:block}   
+     .resmenu ul li {border-bottom:1px solid #fff;padding:10px;}
+	 .responsive-menu i{color:#fff\9}
+
+	
+	
+}
