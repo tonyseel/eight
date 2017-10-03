@@ -4,7 +4,7 @@ title: Blog
 ---
 <div class="container">
 <div class="intro intro-archives">
-<h1 class="title title-large" style="background:none">Blog</h1>
+<h1 class="title title-large">Blog</h1>
 <div class="category-excerpt">
     <p>Each of your categories can also have a description, so that it will organize your posts much more efficiently. This is yet another SEO advantage.</p>
 </div>
@@ -14,7 +14,7 @@ title: Blog
      {% if post.categories contains 'blog' %}
     <li>
         <div class="post-thumb">
-            <a href="{{site.baseurl}}{{post.url}}" title="{{post.title}}"><img src="{{site.baseurl}}/images/{{post.image}}" alt="{{post.title}}" class="Thumbnail thumbnail loop-main " width="291" height="176" /></a>
+            <a href="{{site.baseurl}}{{post.url}}" title="{{post.title}}"><img src="{{site.baseurl}}/image/{{post.image}}" alt="{{post.title}}" class="Thumbnail thumbnail loop-main " width="291" height="176" /></a>
              <p class="postmetadata blog">
                 <span><time datetime="2015-08-13" pubdate class="blog">{{post.date | date:"%B %-d, %Y"}}</time></span>
             </p>
