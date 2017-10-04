@@ -321,6 +321,9 @@ ul.posts-archive h2 {
     display: inline;
     line-height: 2.7em;color:#e71d35!important;text-decoration: none;
 }
+    ul.posts-archive{list-style: none;
+   
+    padding: 0;}
 span.more {
     display: block;
     font-size: 12px;
