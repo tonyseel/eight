@@ -306,6 +306,7 @@ div.post-excerpt {
     margin-top: -30px;
     margin-bottom: 0px;
 }
+div.post-excerpt a{text-decoration:none}
 div.blog p {
     color: #666;
     font-size: 14px;
