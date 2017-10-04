@@ -1,6 +1,7 @@
 # site setting
 title: eight
 baseurl: /eight
+favicon: favicon.png
 tagline: Sample Optin Form
 banner-image: home-banner.jpg
 exclude: ['README.md']
