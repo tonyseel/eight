@@ -323,7 +323,7 @@ ul.posts-archive h2 {
 }
     ul.posts-archive{list-style: none;
    
-    padding: 0;}
+    padding: 0;margin-top: 45px;}
 span.more {
     display: block;
     font-size: 12px;
