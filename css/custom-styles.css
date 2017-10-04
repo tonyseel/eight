@@ -74,7 +74,7 @@ ul.social li {
 	font-size:16px;
 	font-weight:600;
 	text-transform:uppercase;
-	padding:0 26px 0 29px;display:block;
+	padding:0 26px 0 29px;float:left;
 }
 .nav li:last-child { 
 	padding-right:0;
