@@ -278,8 +278,8 @@ div.intro-archives {
     margin: 10px 0 20px;
     padding: 0 0 20px;
 }
-.intro h1{
-       color: #207aaf;
+.intro h2{
+       color: #3e3d3d;
     font-size: 41px;
     font-weight: 500;
 }
@@ -303,7 +303,7 @@ div.post-excerpt {
     font-size: 14px;
     line-height: 1.75em;
     overflow: hidden;
-    margin-top: 5px;
+    margin-top: -30px;
     margin-bottom: 0px;
 }
 div.blog p {
@@ -319,7 +319,7 @@ ul.posts-archive h2 {
     font-size: 30px;
     font-weight: bold;
     display: inline;
-    line-height: 2.7em;color:#207aaf!important;text-decoration: none;
+    line-height: 2.7em;color:#e71d35!important;text-decoration: none;
 }
 span.more {
     display: block;
