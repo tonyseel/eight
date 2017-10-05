@@ -302,7 +302,7 @@ div.post-excerpt {
     line-height: 1.75em;
     overflow: hidden;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 0px;text-decoration: none
 }
 div.post-excerpt h2{color:#e71d35!important;text-decoration:none!important}
 
