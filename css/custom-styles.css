@@ -68,13 +68,14 @@ ul.social li {
 }
 .navbar { 
     padding:0 !important;
-    border-top:1px solid #e71d35;
+    border-top:1px solid #e71d35!important;
+    margin-bottom: 7px;display:inline-block;float:left;
 }
 .navbar-light .navbar-nav .nav-link { 
     color:#414141;
     font-size:16px;
     font-weight:600;
-    padding-right: 1.81rem;
+   
     padding-left: 1.81rem;
     text-transform:uppercase;
     border-top:1px solid #FFF;
