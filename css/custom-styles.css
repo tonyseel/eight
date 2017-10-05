@@ -66,30 +66,29 @@ ul.social li {
 	padding:0;
 	float:left;
 }
-.nav { 
-	border-top:1px solid #e71d35;
-	width:100%;
+.navbar { 
+    padding:0 !important;
+    border-top:1px solid #e71d35;
 }
-.nav li { 
-	font-size:16px;
-	font-weight:600;
-	text-transform:uppercase;
-	padding:0 26px 0 29px;float:left;
+.navbar-light .navbar-nav .nav-link { 
+    color:#414141;
+    font-size:16px;
+    font-weight:600;
+    padding-right: 1.81rem;
+    padding-left: 1.81rem;
+    text-transform:uppercase;
+    border-top:1px solid #FFF;
 }
-.nav li:last-child { 
-	padding-right:0;
+ul.navbar-nav li:last-child a { 
+    padding-right:0 !important;
 }
-.nav li a { 
-	color:#414141;
-	text-decoration:none !important;
-	display:block;
-	padding:8px 0 0 0;
-	border-top:1px solid #FFF;
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link { 
+    border-top:1px solid #e71d35;
+    color:#e71d35;
 }
-.nav li a:hover { 
-	color:#e71d35;
-	border-top:1px solid #e71d35;
-}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover { 
+    color:#e71d35;
+    border-top:1px solid #e71d35;}
 .home-banner {
 	display: block;
 }

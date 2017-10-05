@@ -22,6 +22,9 @@
 	.facebook-page img{width:100%}
 	.foot-top h4{margin-top:7px}
 	.foot-bottom{font-size:12px}
+	.navbar { 
+		padding-top:10px !important;
+	}
 }
 
 @media only screen and (min-width:768px) and (max-width:1024px)
