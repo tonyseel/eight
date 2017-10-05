@@ -1,12 +1,12 @@
 body { 
-	color:#505050;
+    color:#505050;
 }
 h1 {
-	font-size: 30px;
-	font-weight: 600;
-	color:#42464f;
-	text-transform:uppercase;
-	margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color:#42464f;
+    text-transform:uppercase;
+    margin-bottom: 30px;
 }
 h1:after {
     content: '';
@@ -16,55 +16,55 @@ h1:after {
     background-color: #e71d35;
     display: block;
     margin: 15px auto;
-	transform: skew(50deg);
+    transform: skew(50deg);
 }
 p { 
-	color: #414141;
+    color: #414141;
     font-size: 14px;
 }
 .logo { 
-	font-size:36px;
-	font-weight:600;
-	color:#e71d35 !important;
-	text-decoration:none !important;
-	line-height:24px;
-	padding-top:40px;
-	padding-bottom:40px;
-	display:block;
+    font-size:36px;
+    font-weight:600;
+    color:#e71d35 !important;
+    text-decoration:none !important;
+    line-height:24px;
+    padding-top:40px;
+    padding-bottom:40px;
+    display:block;
 }
 .head-top { 
-	float:left;
-	width:100%;
-	margin-top:18px;
-	margin-bottom:6px;
+    float:left;
+    width:100%;
+    margin-top:18px;
+    margin-bottom:6px;
 }
 .head-top .phone { 
-	float:right;
-	background:url(../images/cell-phone.png) 0 5px no-repeat;
-	color:#505050;
-	padding-left:20px;
-	margin-right:14px;
-	text-decoration:none !important;
+    float:right;
+    background:url(../images/cell-phone.png) 0 5px no-repeat;
+    color:#505050;
+    padding-left:20px;
+    margin-right:14px;
+    text-decoration:none !important;
 }
 .head-top .email { 
-	float:right;
-	background:url(../images/email.png) 0 5px no-repeat;
-	color:#505050;
-	padding-left:20px;
-	margin-right:14px;
-	text-decoration:none !important;
+    float:right;
+    background:url(../images/email.png) 0 5px no-repeat;
+    color:#505050;
+    padding-left:20px;
+    margin-right:14px;
+    text-decoration:none !important;
 }
 ul.social { 
-	float:right;
-	margin:0;
-	padding:0;
+    float:right;
+    margin:0;
+    padding:0;
 }
 ul.social li { 
-	list-style:none;
-	display:inline-block;
-	margin:0 0 0 15px;
-	padding:0;
-	float:left;
+    list-style:none;
+    display:inline-block;
+    margin:0 0 0 15px;
+    padding:0;
+    float:left;
 }
 .navbar { 
     padding:0 !important;
@@ -88,7 +88,8 @@ ul.navbar-nav li:last-child a {
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover { 
     color:#e71d35;
-    border-top:1px solid #e71d35;}
+    border-top:1px solid #e71d35;
+}
 .home-banner {
 	display: block;
 }
