@@ -24,8 +24,9 @@
 	.foot-bottom{font-size:12px}
 	.navbar {padding-top:10px !important;}
 	.form-box .text-box {margin-bottom:8px;}
-     div.post-excerpt h2{font-size: 23px;line-height:10px;}
+     div.post-excerpt h2{font-size: 23px;line-height:10px;color:#e71d35;text-decoration:none}
 	.inner-page h3{font-size:23px;}
+	.posts-archive{padding:0px;}
 }
 
 @media only screen and (min-width:768px) and (max-width:1024px)
@@ -40,6 +41,11 @@
      .resmenu ul li {border-bottom:1px solid #fff;padding:10px;}
 	 .responsive-menu i{color:#fff\9}
 
+.navbar {padding-top:10px !important;}
+	.form-box .text-box {margin-bottom:8px;}
+     div.post-excerpt h2{font-size: 23px;line-height:10px;color:#e71d35;text-decoration:none}
+	.inner-page h3{font-size:23px;}
+	.posts-archive{padding:0px;}
 	
 	
 }
