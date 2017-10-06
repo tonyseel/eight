@@ -20,7 +20,9 @@ h1:after {
 }
 p { 
     color: #414141;
-    font-size: 14px;
+    font-size: 14px;    font-size: 15px;
+    line-height: 2em;
+
 }
 .logo { 
     font-size:36px;
