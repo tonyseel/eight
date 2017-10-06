@@ -3,7 +3,7 @@ title: eight
 baseurl: http://eight.hatkit.com
 favicon: favicon.png
 tagline: Sample Optin Form
-banner-image: home-banner.jpg
+banner-image: home-banner1.jpg
 exclude: ['README.md']
 permalink: pretty #to remove .html
 gems:
