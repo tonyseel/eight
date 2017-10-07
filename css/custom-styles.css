@@ -294,9 +294,10 @@ ul.posts-archive li {
     border-bottom: solid 1px #eee;
     padding-bottom: 35px;list-style:none;
 }
+
+.posts-archive{padding:0px;}
 div.post-thumb {
-   padding:0px;
-}
+   padding:0px;display: inline-block;}
 div.post-thumb p{font-size: 14px;    color: #ff0303;} 
 div.post-excerpt {
     color: #666;
@@ -307,7 +308,7 @@ div.post-excerpt {
     margin-bottom: 0px;text-decoration: none
 }
 div.post-excerpt h2{color:#e71d35!important;text-decoration:none!important}
-
+div.post-excerpt{float:right;}
 div.blog p {
     color: #666;
     font-size: 14px;
