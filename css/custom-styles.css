@@ -298,6 +298,7 @@ ul.posts-archive li {
 .posts-archive{padding:0px;}
 div.post-thumb {
    padding:0px;display: inline-block;}
+   div.post-thumb img{width:100%;}
 div.post-thumb p{font-size: 14px;    color: #ff0303;} 
 div.post-excerpt {
     color: #666;
